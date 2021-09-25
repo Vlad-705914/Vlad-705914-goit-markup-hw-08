@@ -1,0 +1,102 @@
+.section-filter__list{
+  margin-bottom: 50px;
+  justify-content: center; 
+  display: flex;
+  color: var(--title-text-color); 
+}
+
+.section-filter__item:not(:last-child){
+  margin-right: 8px; 
+    }
+  
+.section-filter__button{
+ @include font($fz:16px, $lh:1.62, $fw:500);
+  border:transparent;
+  cursor:pointer;
+  min-width: 73px;
+  padding: 6px 22px 6px 22px;
+  border-radius: 4px;
+  transition:color 250ms var(--timing-function),background-color 250ms var(--timing-function),box-shadow 250ms var(--timing-function);
+   &:hover,
+   &:focus{
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+    box-shadow:0px 3px 1px rgba(0,0,0,0.1), 0px 1px 2px rgba(0,0,0,0.08),
+    0px 2px 2px rgba(0,0,0,0.12);
+    border-radius:4px
+   }
+   
+  }
+ 
+
+  .portfolio {                
+  margin-left:-30px;
+  margin-top: -30px; 
+  display: flex;
+  flex-wrap: wrap;
+    }
+       
+.portfolio__items{
+  flex-basis:calc(100% / 3 -30px);
+  margin-left:30px;
+  margin-top: 30px; 
+   &:hover .portfolio__desc,
+   &:focus .portfolio__desc{
+    transform: translateY(0%);
+  } 
+}
+  .portfolio__link{
+  display: block;
+  text-decoration: none;
+    &:hover,
+    &:focus{
+    box-shadow:0px 1px 1px rgba(0,0,0,0.12), 0px 4px 4px rgba(0,0,0,0.06),
+    1px 4px 6px #00000029
+    }
+    .portfolio__cards:hover &,
+    .portfolio__cards:focus &{
+    color:rgba(47, 48, 50, 0.4),rgba(47, 48, 50, 0.4) ;
+  }  
+  }
+
+
+
+  .portfolio__desc{
+  @include font($fz:18px, $lh:1.55, $fw:400);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  padding: 63px 24px ;
+  justify-content: center;
+  color: var(--primary-white-color);
+  background-color: rgba(33,159,243,0.9);
+  overflow: hidden;
+  transform: translateY(100%);
+  transition: transform 250ms var(--timing-function);
+
+}
+
+     
+
+.portfolio-cards__thumb{
+  position: relative;
+  overflow: hidden;
+}
+    
+.portfolio__title{
+  @include font($fz:18px, $lh:2.0, $fw:700, $ls:0.06em);
+  color: var(--title-text-color);
+} 
+.portfolio__text{
+   @include font($fz:16px, $lh:1.87, $fw:400);
+    margin-top: 4px;
+    color: var( --secondary-color);
+  }  
+   
+ 
+   
+.portfolio__content{
+  padding:20px 24px 20px 24px;
+  border-bottom:1px solid #EEEEEE;
+ }
