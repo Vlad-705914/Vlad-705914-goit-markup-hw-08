@@ -1,7 +1,11 @@
 .hero{
+ width: 100%;
   background-color:var(--first-color);
-  padding-top: 200px; 
-  padding-bottom: 200px;
+  padding:118px 60px 30px 60px; 
+  border-radius:4px;
+  // margin-bottom: 60px;
+  // width: 360px;
+  // height: 164px;
   background-image:linear-gradient(rgba(47, 48, 50, 0.4),rgba(47, 48, 50, 0.4)) 
   ,url(../images/team/hero-team.jpg); 
   background-repeat: no-repeat;
@@ -9,11 +13,11 @@
   background-size: cover;
  }
    .hero__title{
-    @include font($fz:44px, $lh:1.36, $fw:900, $ls:0.06em);
+    @include font($fz:26px, $lh:1.6, $fw:900, $ls:0.06em);
     text-align: center;
     color: var(--primary-white-color);
     text-transform: uppercase;
-    margin-bottom: 30px;
+    // margin-bottom: 30px;
    
   }
 
