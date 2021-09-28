@@ -2,12 +2,12 @@
   display: flex;
   
 }
-.perfomance__title{
+.section__title{
 @include font($fz:36px, $lh:1.36, $fw:700,);
   margin-bottom: 50px;
   text-align: center;
 }
-.perfomance__list:not(:first-child){
+.perfomance__item:not(:first-child){
   margin-left: 30px;
   border-radius:4px;
  }

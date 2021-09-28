@@ -36,14 +36,14 @@
   flex-wrap: wrap;
     }
        
-.portfolio__items{
+.portfolio__item{
   flex-basis:calc(100% / 3 -30px);
   margin-left:30px;
   margin-top: 30px; 
-   &:hover .portfolio__desc,
-   &:focus .portfolio__desc{
-    transform: translateY(0%);
-  } 
+  //  &:hover .portfolio__desc,
+  //  &:focus .portfolio__desc{
+  //   transform: translateY(0%);
+  // } 
 }
   .portfolio__link{
   display: block;
@@ -56,7 +56,12 @@
     .portfolio__cards:hover &,
     .portfolio__cards:focus &{
     color:rgba(47, 48, 50, 0.4),rgba(47, 48, 50, 0.4) ;
-  }  
+  } 
+  &:hover .portfolio__desc,
+  &:focus .portfolio__desc{
+   transform: translateY(0%);
+ } 
+  
   }
 
 
