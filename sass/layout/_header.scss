@@ -6,7 +6,10 @@
   display: flex;
   align-items: center;
 }
-
+// .header__logo{
+//   padding-top: 16px;
+//   padding-bottom: 16px;
+// }
 .logo {
   font-size: 26px;
   line-height: 1.19;
@@ -19,6 +22,8 @@
 .logo_color_light {
   color: var(--accent-color);
   margin-right: 93px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .logo_color_dark {
@@ -34,6 +39,7 @@
 .header-list {
   display: flex;
   text-align: left;
+  display: none;
 }
 
 .header-list__item {
@@ -97,7 +103,7 @@
 
 .contacs {
   margin-left: auto;
-  display: flex;
+  display: none;
 }
 
 .contacs__items {
@@ -113,10 +119,3 @@
   fill: currentColor;
 }
 
-
-
-
-      
-
-
-      

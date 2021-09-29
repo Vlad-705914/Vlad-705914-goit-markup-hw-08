@@ -1,5 +1,15 @@
+// .section--no-padding-top{
+//   display: none;
+//   @media  screen and (min-width:1200px){
+//     display: block;
+//   }
+
 .section--no-padding-top{
   padding-top: 0;
+  display: none;
+  @media  screen and (min-width:1200px){
+    display: block;
+  }
 }
 .section__title{
  @include font($fz:36px, $lh:1.16, $fw:700);
