@@ -68,15 +68,15 @@
   }
 }
   .portfolio__link{
-  display: block;
-  text-decoration: none;
+    display: block;
+    text-decoration: none;
     &:hover,
     &:focus{
     box-shadow:0px 1px 1px rgba(0,0,0,0.12), 0px 4px 4px rgba(0,0,0,0.06),
     1px 4px 6px #00000029
     }
-    .portfolio__cards:hover &,
-    .portfolio__cards:focus &{
+  .portfolio__cards:hover &,
+  .portfolio__cards:focus &{
     color:rgba(47, 48, 50, 0.4),rgba(47, 48, 50, 0.4) ;
   } 
   &:hover .portfolio__desc,
@@ -88,19 +88,19 @@
 
 
 
-  .portfolio__desc{
+.portfolio__desc{
   @include font($fz:18px, $lh:1.55, $fw:400);
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  padding: 63px 24px ;
-  justify-content: center;
-  color: var(--primary-white-color);
-  background-color: rgba(33,159,243,0.9);
-  overflow: hidden;
-  transform: translateY(100%);
-  transition: transform 250ms var(--timing-function);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 63px 24px ;
+    justify-content: center;
+    color: var(--primary-white-color);
+    background-color: rgba(33,159,243,0.9);
+    overflow: hidden;
+    transform: translateY(100%);
+    transition: transform 250ms var(--timing-function);
 
 }
 
