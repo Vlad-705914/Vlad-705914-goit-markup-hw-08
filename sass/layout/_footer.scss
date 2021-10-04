@@ -12,8 +12,13 @@ flex-direction: column;
 flex-direction: row;
 // display: flex;
 // align-items: baseline;
-
 }
+
+// .footer-deck{
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+// }
 }
 .footer__wrapper{
   flex-grow: 1;
@@ -186,7 +191,7 @@ background-color: var(--accent-color);
   width: 100%;
   @media  screen and (min-width:768px){
   margin-left: 0;
-  width: 100%;
+  // width: 100%;
 }
 }  
 .footer-deck input{
@@ -265,7 +270,6 @@ margin-left: 10px;
 .footer-imput:not(:placeholder-shown):required:invalid{
  background-color: #2F303A;
 }
-
 
 
 

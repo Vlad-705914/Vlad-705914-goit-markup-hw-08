@@ -1080,6 +1080,11 @@ img {
     flex-direction: row;
   }
 }
+.footer__content .footer-deck {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .footer__wrapper {
   flex-grow: 1;
