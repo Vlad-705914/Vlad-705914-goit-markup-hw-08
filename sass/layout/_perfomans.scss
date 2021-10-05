@@ -5,7 +5,7 @@
 // }
 
 .section__title{
-  @include font($fz:36px, $lh:1.36, $fw:700,);
+  @include font($fz:28px, $lh:1.17, $fw:700);
     margin-bottom: 50px;
     text-align: center;
   }

@@ -20,9 +20,12 @@
 
 .logo_color_light {
   color: var(--accent-color);
-  margin-right: 93px;
+  // margin-right: 93px;
   padding-top: 16px;
   padding-bottom: 16px;
+  @media  screen and (min-width:768px){
+  margin-right: 93px; 
+  }
 }
 
 .logo_color_dark {
@@ -224,7 +227,7 @@ background-color: var(--accent-color);
    position: relative;
    display: flex;
    flex-direction: column;
-  //  justify-content: space-between;
+   justify-content: space-between;
    height: 100%;
   }
   @media  screen and (min-width:768px){
@@ -241,8 +244,11 @@ background-color: var(--accent-color);
   @include font($fz:40px, $lh:1.17, $ls:0.02em);
   text-align: center;
   color: var(--title-text-color);
-  // text-decoration:none;
 }
+.mob-menu-link--current{
+ color: var(--accent-color);
+}
+
 .mob-contacs-list{
   margin-bottom: 32px;
 }
@@ -263,10 +269,12 @@ background-color: var(--accent-color);
 }
 .mob-social-list{
   display: flex;
+ margin-top: 64px;
 }
 .mob-social-item{
   &:not(:last-child){
   margin-right: 10px;
+
 .mob-social-link{
   border-right: 1px solid rgba(33, 33, 33, 0.2);
   transform: rotate(90deg);

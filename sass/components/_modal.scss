@@ -170,7 +170,8 @@
   .modal-form-check__label{
    @include font($lh:1.7, $fw:400);
    display: flex;
-   justify-content: center;
+  //  justify-content: center;
+
    align-items:center;
    text-align: left;
    color: var(--secondary-color);

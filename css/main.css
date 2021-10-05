@@ -1,10 +1,11 @@
 section {
-  margin-bottom: 60px;
-  margin-top: 60px;
+  padding-bottom: 60px;
+  padding-top: 60px;
 }
 @media screen and (min-width: 1200px) {
   section {
     margin-bottom: 94px;
+    margin-top: 94px;
   }
 }
 
@@ -357,7 +358,6 @@ img {
   font-weight: 400;
   letter-spacing: 0.03em;
   display: flex;
-  justify-content: center;
   align-items: center;
   text-align: left;
   color: var(--secondary-color);
@@ -413,9 +413,13 @@ img {
 
 .logo_color_light {
   color: var(--accent-color);
-  margin-right: 93px;
   padding-top: 16px;
   padding-bottom: 16px;
+}
+@media screen and (min-width: 768px) {
+  .logo_color_light {
+    margin-right: 93px;
+  }
 }
 
 .logo_color_dark {
@@ -629,6 +633,7 @@ img {
   position: relative;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   height: 100%;
 }
 @media screen and (min-width: 768px) {
@@ -648,6 +653,10 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--title-text-color);
+}
+
+.mob-menu-link--current {
+  color: var(--accent-color);
 }
 
 .mob-contacs-list {
@@ -676,6 +685,7 @@ img {
 
 .mob-social-list {
   display: flex;
+  margin-top: 64px;
 }
 
 .mob-social-item:not(:last-child) {
@@ -711,8 +721,6 @@ img {
 }
 
 .hero {
-  margin-bottom: 62px;
-  margin-top: 0;
   padding-top: 118px;
   padding-bottom: 118px;
   background-color: var(--first-color);
@@ -757,6 +765,7 @@ img {
   text-align: center;
   color: var(--primary-white-color);
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
 @media screen and (min-width: 1200px) {
   .hero__title {
@@ -1012,8 +1021,8 @@ img {
 }
 
 .section__title {
-  font-size: 36px;
-  line-height: 1.36;
+  font-size: 28px;
+  line-height: 1.17;
   font-weight: 700;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
@@ -1072,18 +1081,12 @@ img {
 }
 
 .footer__content {
-  display: flex;
   flex-direction: column;
 }
 @media screen and (min-width: 1200px) {
   .footer__content {
     flex-direction: row;
   }
-}
-.footer__content .footer-deck {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .footer__wrapper {
@@ -1257,7 +1260,6 @@ img {
 @media screen and (min-width: 768px) {
   .footer-form {
     margin-left: 0;
-    width: 100%;
   }
 }
 

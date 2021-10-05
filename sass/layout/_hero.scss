@@ -1,6 +1,6 @@
 .hero{
-  margin-bottom: 62px;
-  margin-top: 0;
+  // margin-bottom: 62px;
+  // margin-top: 0;
   padding-top: 118px;
   padding-bottom: 118px;  
   background-color: var(--first-color);
@@ -48,6 +48,7 @@
     text-align: center;
     color: var(--primary-white-color);
     text-transform: uppercase;
+    margin-bottom: 30px;
     @media  screen and (min-width:1200px){
     @include font($fz:44px, $lh:1.36, $fw:900, $ls:0.06em);
     margin-bottom: 30px;
