@@ -3,6 +3,12 @@
    background-color: var(--primary-white-color);
    width: 450px;
    min-height: 581px;
+
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 40px;
+ 
+
  
    box-shadow:0px 1px 3px rgba(0,0,0,0.12),0px 1px 1px rgba(0,0,0,0.14),
    0px 2px 1px rgba(0,0,0,0.2);
@@ -168,12 +174,12 @@
 
  
   .modal-form-check__label{
-   @include font($lh:1.7, $fw:400);
+   @include font($fz:12px, $lh:1.17, $fw:400, $ls:0.01em);
    display: flex;
-  //  justify-content: center;
+   justify-content: center;
 
    align-items:center;
-   text-align: left;
+   text-align: center;
    color: var(--secondary-color);
    padding-top: 20px;
     &::before{
@@ -204,7 +210,8 @@
   }
 
   .modal-form-check-label__item{
-  color: var(--accent-color);
+    @include font($fz:12px, $lh:1.17, $fw:400, $ls:0.01em);
+    color: var(--accent-color);
  
  
  }

@@ -563,14 +563,14 @@
     <!--footer-->
          
         <footer class="footer">
-          <div class=" container footer__content">
+          <!-- <div class=" container footer__content"> -->
            
-          <div class="footer__wrapper">
-          <div class="footer__logo">
-              <a lang="en" class="logo  link logo_size_n" href="">Web
-                <span class="logo logo_color_anoth">Studio</span></a>
-          </div>
-         <address>
+          <div class="container footer__wrapper">
+          <div class="main-footer">
+              <a lang="en" class="logo  footer__logo" href="">
+                <span class="logo__label">Web</span>Studio</a>
+          <!-- </div> -->
+         <address class="footer-main-contacs">
           <ul class="footer__list">
             <li class="footer__item">
                <a class="footer__adress" href="https://goo.gl/maps/Fyau3RTndr1kcrQs9"  target="_blank" rel ="noopener noreferren">г. Киев, пр-т Леси Украинки, 26</a>
@@ -587,7 +587,9 @@
            
           <!-- FOOTER-SOCIALS -->
           <div class="socials__footer">
-           <h3 class="socials__caption">присоединяйтесь</h3>
+           <p class="socials__caption">
+             <b>присоединяйтесь</b>
+           </p>
          
            <ul class="socials__footer__list">
               <li class="socials__footer__item">
@@ -631,25 +633,27 @@
 
         <!-- FOOTER-FORM -->
         
-         <form class="footer-form">
-          <div class="footer-deck">
-          <p class="footer-deck-footer__form-title">Подпишитесь на рассылку</p>
-          <label for="email"></label>
-          <input type="email" class="footer-imput" 
-          name="email" 
-          id="email"
-          placeholder="E-mail"
-           required 
-         >
+         
+          <div class="thild-footer">
+            <form class="third-footer__form action="#">
+              <label class="second-footer__title" for="subscride">
+                <p class="second-footer__title">Подпишитесь на рассылку</p>
+              </label>
+             <div class="third-footer__wrap">
+              <input class="third-footer__input" type="email" 
+              name="email" id="subscride"
+               placeholder="E-mail">
            
-         <button type="submit" class="footer-deck-button__footer">Подписаться
-             <svg class="button-icon" width="24px" height="24px">
+          <button class="button third-footer__button" type="submit">
+            Подписаться
+             <svg class="third-button__icon" width="24px" height="24px">
                <use href="./images/sprite.svg#icon-icon-pigeon"></use>
              </svg>
            </button>
-        
+             </div>
+          </form>
           </div>
-        </form>
+       
         </div>
        
        </footer>
