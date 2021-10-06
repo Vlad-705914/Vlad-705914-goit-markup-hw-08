@@ -40,11 +40,16 @@
   color: var(--primary-white-color);
   font-family: Raleway, sans-serif;
   text-decoration: none;
+ 
 
   // &:hover,
   // &:focus {
   //   color: var(--accent-color);
   // }
+}
+
+.footer-main-contacs{
+  margin-top: 20px;
 }
 .logo__label{
   color: var(--accent-color);
@@ -196,6 +201,7 @@ font-weight: 700;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-align: center;
+text-transform: uppercase;
 color: var(--primary-white-color);
 
 }

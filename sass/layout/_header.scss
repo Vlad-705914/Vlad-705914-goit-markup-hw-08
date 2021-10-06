@@ -169,22 +169,24 @@
 .contacs__icon {
   margin-right: 10px;
   fill: currentColor;
+  width: 14px;
+  height: 10px;
   @media  screen and (min-width:768px){
-    &:first-child{
+    &:nth-child(1){
     width: 14px;
     height: 10px;
     }
-    &:last-child{
+    &:nth-child(2){
       width: 10px;
       height: 14px;
     }
   } 
   @media  screen and (min-width:1200px){
-    &:first-child{
+    &:fnth-child(1){
     width: 16px;
     height: 12px;
     }
-    &:last-child{
+    &:nth-child(2){
       width: 10px;
       height: 16px;
     }
@@ -297,5 +299,6 @@ background-color: var(--accent-color);
 .icon-menu{
   @media  screen and (min-width:768px){
     display: none;
+
   } 
 }
