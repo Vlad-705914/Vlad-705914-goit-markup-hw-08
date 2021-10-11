@@ -5,7 +5,7 @@
   padding-bottom: 118px;  
   background-color: var(--first-color);
   background-image:linear-gradient(rgba(47, 48, 50, 0.4),rgba(47, 48, 50, 0.4)) 
-  ,url(../images/team/hero-team1mob.jpg); 
+  ,url(../images/team/mob_hero1x.); 
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -14,32 +14,32 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
     background-image:linear-gradient(rgba(47, 48, 50, 0.4),rgba(47, 48, 50, 0.4)) 
-  ,url(../images/team/hero-team1x2mob.jpg); 
+  ,url(../images/team/mob_hero1x.jpg); 
 }
   @media  screen and (min-width:768px){
     background-image:linear-gradient(rgba(47, 48, 50, 0.4),rgba(47, 48, 50, 0.4)) 
-    ,url(../images/team/hero-team1tab.jpg); 
+    ,url(../images/team/tab_hero1x.jpg); 
   }
   @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2),
   (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
     background-image:linear-gradient(rgba(47, 48, 50, 0.4),rgba(47, 48, 50, 0.4)) 
-  ,url(../images/team/hero-team1x2tab.jpg); 
+  ,url(../images/team/tab_hero2x.jpg); 
 }
    
 @media  screen and (min-width:1200px){
     padding-top: 200px;
     padding-bottom: 200px;
     background-image:linear-gradient(rgba(47, 48, 50, 0.4),rgba(47, 48, 50, 0.4)) 
-    ,url(../images/team/hero-team.jpg); 
+    ,url(../images/team/des_hero1x.jpg); 
   }
   @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2),
   (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
     background-image:linear-gradient(rgba(47, 48, 50, 0.4),rgba(47, 48, 50, 0.4)) 
-  ,url(../images/team/hero-team2.jpg); 
+  ,url(../images/team/des_hero2x.jpg); 
 }
   }
  
