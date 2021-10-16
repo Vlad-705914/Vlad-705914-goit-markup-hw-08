@@ -400,7 +400,7 @@ img {
 }
 
 .header {
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
 }
 
 .header__container {
@@ -504,7 +504,8 @@ img {
   }
 }
 
-.header-list__link:hover, .header-list__link:focus {
+.header-list__link:hover,
+.header-list__link:focus {
   color: var(--accent-color);
 }
 
@@ -533,7 +534,8 @@ img {
   }
 }
 
-.contacs__link:hover, .contacs__link:focus {
+.contacs__link:hover,
+.contacs__link:focus {
   color: var(--accent-color);
 }
 
@@ -605,7 +607,8 @@ img {
   }
 }
 
-.menu-open, .menu-close {
+.menu-open,
+.menu-close {
   width: 40px;
   height: 40px;
   border: none;
@@ -632,7 +635,7 @@ img {
 
 .mob-menu {
   position: fixed;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: 100vw;
   height: 100vh;
   top: 0;
